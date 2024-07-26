@@ -1,0 +1,31 @@
+name: dars_65
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_barcode_scanner: ^2.0.0
+  flutter_bloc: ^8.1.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_gallery_saver: ^2.0.3
+  permission_handler: ^11.3.1
+  qr_code_scanner: ^1.0.1
+  qr_flutter: ^4.1.0
+  share_plus: ^9.0.0
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
